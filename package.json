@@ -5,7 +5,8 @@
 	"main": "dist/index.umd.js",
 	"module": "dist/index.es.js",
 	"scripts": {
-		"lint": "eslint src/test/*.ts",
+		"lint": "eslint '{src,test,cypress,build}/**/*.{js,ts}'",
+    "lint-fix": "eslint --fix \"{src,test,cypress,build}/**/*.{js,ts}\"",
 		"start": "rimraf dist && rollup -c rollup.config.ts -w",
 		"prebuild": "rimraf dist",
 		"build": "tsc --module commonjs && rollup -c rollup.config.ts"

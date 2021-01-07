@@ -1,6 +1,6 @@
 import EasyFetch from './core/EasyFetch'
-import { EasyFetchInstance } from "./types"
-import { extend } from "./helpers/util"
+import { EasyFetchInstance } from './types'
+import { extend } from './helpers/util'
 
 function createInstance(): EasyFetchInstance {
 	const context = new EasyFetch()

@@ -1,8 +1,8 @@
-import { buildURL } from "../helpers/url"
-import { transformRequest, transformResponse } from "../helpers/data"
-import { processHeaders } from "../helpers/headers"
-import { EasyFetchRequestConfig, EasyFetchResponse } from "../types"
-import xhr from "./xhr"
+import { buildURL } from '../helpers/url'
+import { transformRequest, transformResponse } from '../helpers/data'
+import { processHeaders } from '../helpers/headers'
+import { EasyFetchRequestConfig, EasyFetchResponse } from '../types'
+import xhr from './xhr'
 
 
 export function dispatchRequest(config: EasyFetchRequestConfig): Promise<EasyFetchResponse> {

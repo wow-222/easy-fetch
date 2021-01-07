@@ -1,4 +1,4 @@
-import {EasyFetchRequestConfig, EasyFetchResponse} from "../types/index"
+import {EasyFetchRequestConfig, EasyFetchResponse} from '../types/index'
 
 export class EasyFetchError extends Error {
 	isEasyFetchError: boolean

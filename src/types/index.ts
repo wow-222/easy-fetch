@@ -25,7 +25,7 @@ export interface EasyFetchResponse {
   request: any
 }
 
-export interface EasyFetchPromise extends Promise<EasyFetchResponse>{}
+export type EasyFetchPromise = Promise<EasyFetchResponse>
 
 // 这里是给外部用的，内部没啥用
 interface EasyFetchError extends Error {
