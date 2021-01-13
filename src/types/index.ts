@@ -1,18 +1,26 @@
-export type Method = 'get' | 'GET'
-  | 'delete' | 'Delete'
-  | 'head' | 'HEAD'
-  | 'post' | 'POST'
-  | 'options' | 'OPTIONS'
-  | 'put' | 'PUT'
-  | 'patch' | 'PATCH'
+export type Method =
+  | 'get'
+  | 'GET'
+  | 'delete'
+  | 'Delete'
+  | 'head'
+  | 'HEAD'
+  | 'post'
+  | 'POST'
+  | 'options'
+  | 'OPTIONS'
+  | 'put'
+  | 'PUT'
+  | 'patch'
+  | 'PATCH'
 
 export interface EasyFetchRequestConfig {
-	url: string,
-  method?: Method,
-  data?: any,
-  params?: any,
-  headers?: any,
-  responseType?: XMLHttpRequestResponseType,
+  url: string
+  method?: Method
+  data?: any
+  params?: any
+  headers?: any
+  responseType?: XMLHttpRequestResponseType
   timeout?: number
 }
 
@@ -35,7 +43,6 @@ interface EasyFetchError extends Error {
   response?: EasyFetchResponse
   isEasyFetchError: boolean
 }
-
 
 interface EasyFetch {
   request(config: EasyFetchRequestConfig): Promise<EasyFetchResponse>
