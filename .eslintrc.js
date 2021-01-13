@@ -34,6 +34,7 @@ module.exports = {
 			'never'
 		],
 		"@typescript-eslint/no-explicit-any": 0,
-		"@typescript-eslint/explicit-module-boundary-types": 0
+		"@typescript-eslint/explicit-module-boundary-types": 0,
+		"@typescript-eslint/no-extra-semi": 0
 	}
 }
