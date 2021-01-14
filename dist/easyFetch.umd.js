@@ -173,7 +173,6 @@
 	    return new Promise(function (resolve, reject) {
 	        var url = config.url, _a = config.data, data = _a === void 0 ? null : _a, _b = config.method, method = _b === void 0 ? 'get' : _b, headers = config.headers, responseType = config.responseType, timeout = config.timeout;
 	        var request = new XMLHttpRequest();
-	        alert("2");
 	        if (responseType) {
 	            request.responseType = responseType;
 	        }

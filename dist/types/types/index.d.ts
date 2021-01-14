@@ -16,8 +16,7 @@ export interface EasyFetchResponse {
     config: EasyFetchRequestConfig;
     request: any;
 }
-export interface EasyFetchPromise extends Promise<EasyFetchResponse> {
-}
+export declare type EasyFetchPromise = Promise<EasyFetchResponse>;
 interface EasyFetch {
     request(config: EasyFetchRequestConfig): Promise<EasyFetchResponse>;
     get(url: string, config?: EasyFetchRequestConfig): Promise<EasyFetchResponse>;
