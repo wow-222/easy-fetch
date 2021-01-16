@@ -1,6 +1,6 @@
 {
 	"name": "easy-fetch-wow",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Promise based using XMLHttpRequest to get data",
 	"main": "dist/easyFetch.min.js",
 	"umd": "dist/easyFetch.umd.js",
