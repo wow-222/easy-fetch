@@ -8,7 +8,7 @@ npm install easy-fetch-wow -S
 
 ## Usage
 ```js
-import easyFetch from 'easy-fetch-wow'
+import easyFetch from 'easy-fetch-wow';
 
 easyFetch({
 	url: './test.json',
