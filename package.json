@@ -1,5 +1,5 @@
 {
-	"name": "easy-fetch",
+	"name": "easy-fetch-wow",
 	"version": "1.0.0",
 	"description": "Promise based using XMLHttpRequest to get data",
 	"main": "dist/easyFetch.min.js",
@@ -13,7 +13,7 @@
 		"all-check": "npm run prettier && npm run lint-fix",
 		"start": "rimraf dist && rollup -c rollup.config.ts -w",
 		"prebuild": "rimraf dist",
-		"build": "npm run prebuild && tsc --module commonjs && rollup -c rollup.config.ts"
+		"build": "tsc --module commonjs && rollup -c rollup.config.ts"
 	},
 	"repository": {
 		"type": "git",
@@ -26,7 +26,7 @@
 		"ajax",
 		"promise"
 	],
-	"author": "wa",
+	"author": "wow222",
 	"license": "MIT",
 	"devDependencies": {
 		"@rollup/plugin-eslint": "^8.0.1",

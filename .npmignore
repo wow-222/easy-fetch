@@ -1,0 +1,15 @@
+*.html
+test.json
+.eslintrc.js
+.prettierrc.js
+package-lock.json
+rollup.config.ts
+tsconfig.json
+postcss.config.js
+.github/
+.npmignore
+.editorconfig
+.bin/
+.DS_Store
+.npm-debug.log
+.babelrc
